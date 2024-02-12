@@ -21,7 +21,7 @@ jobs:
                 npm install
                 npm run build
             - name: Deploy
-              uses: s0/git-publish-subdir-action@develop
+              uses: s0/git-publish-subdir-action@main
               env:
                 REPO: self
                 BRANCH: master
